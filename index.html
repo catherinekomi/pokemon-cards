@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pokemon Index Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <h1>The Pokemon Index Challenge</h1>
+        <span class="api-credit">Powered by Poke API</span>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-bg"></div>
+      <div class="logo-bar">
+        <img src="assets/logo.png" alt="Pokemon Logo" class="pokemon-logo" />
+      </div>
+      <section id="pokemon-grid" class="grid"></section>
+    </main>
+
+    <footer class="footer">
+      <div class="controls">
+        <button id="settings-btn" class="settings-btn">...</button>
+        <div class="cards-per-page">
+          <label for="limit-select">Show</label>
+          <select id="limit-select">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+          </select>
+          <span>cards per page</span>
+        </div>
+        <div class="pagination">
+          <button id="prev-btn">Previous Page</button>
+          <button id="next-btn">Next Page</button>
+        </div>
+      </div>
+    </footer>
+
+    <div id="settings-popup" class="settings-popup hidden">
+      <div class="popup-content">
+        <div class="cards-select">
+          <select id="limit-select-popup">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+          </select>
+          <label for="limit-select-popup">cards per page</label>
+        </div>
+        <button id="close-popup">X</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
