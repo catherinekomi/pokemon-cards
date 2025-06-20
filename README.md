@@ -32,7 +32,7 @@ git clone https://github.com/your-username/pokemon-index.git
 ```
 
 ## Known Note
-On desktop Chrome, mobile-style dropdowns (like the "cards per page" popup) might not behave exactly as expected due to browser limitations in emulating touch UIs.
+On desktop Chrome, mobile-style dropdowns (like the "cards per page" popup) might not behave exactly if you are using "Inspect" as expected due to browser limitations in emulating touch UIs.
 
 For best results, test on a real mobile device.
 
