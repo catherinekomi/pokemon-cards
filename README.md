@@ -1,4 +1,4 @@
-# Pokémon Index – Code Challenge
+# Pokemon Index – Code Challenge
 
 Built with vanilla JavaScript, HTML, and CSS  
 Powered by the [PokeAPI](https://pokeapi.co/)
